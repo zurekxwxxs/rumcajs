@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- Mirrored from razebtc.com/en/fonts/IBM-Plex/sans/woff by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Feb 2021 17:48:10 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>razeBTC</title>
+	<meta name="description" content="razeBTC">
+	<meta name="keywords" content="razeBTC">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../../../css/main.4ffce21e70782d0fa07e.css">
+	<link type="image/x-icon" href="../../../../public/favicon.ico" rel="shortcut icon">
+	<style>
+		.splash-screen{
+			z-index: 9999999999;
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100vh;
+			width: 100vw;
+			transition: opacity .3s ease-out;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background: linear-gradient(320deg,#1c1b19,#a29c90) 100% 100%;
+			overflow-y: scroll;
+		}
+		.splash-screen .content{
+			text-align: center;
+		}
+		.splash-screen .content .noscript{
+			font-size: 18px;
+			font-weight: 600;
+			color: #ffffff;
+		}
+		.splash-screen .content .icon{
+			display: none;
+		}
+		.splash-screen .content .icon svg{
+			width: 224px;
+			height: 224px;
+		}
+		.splash-screen .content .icon svg .fx{
+			transform-origin: center;
+			animation: spin-ss 3s linear infinite;
+		}
+		@keyframes    spin-ss {
+			0% {
+				transform: rotate(0deg) scale(.9);
+			}
+			100% {
+				transform: rotate(1turn) scale(.9);
+			}
+		}
+		.splash-screen .logo {
+			cursor: pointer;
+		}
+		.splash-screen .logo .text {
+			color: #fff;
+			line-height: 1;
+			font-weight: 600;
+			font-size: 42px;
+		}
+		.splash-screen .logo .text span:first-child {
+			font-family: IBM Plex Sans,sans-serif!important;
+		}
+		.splash-screen .logo .text span:last-child {
+			font-family: IBM Plex Sans,sans-serif!important;
+			color: #c9aa4c;
+		}
+		.splash-screen {
+			contain: strict;
+			z-index: 9999999999;
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100vh;
+			width: 100vw;
+			transition: opacity .3s ease-out
+		}
+		.splash-screen .content {
+			position: relative;
+			z-index: 2;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background: #1c1c1c;
+			-webkit-transform: translate3d(0,0,0);
+			transition: opacity 0.5s;
+			opacity: 1;
+		}
+		.splash-screen.hide {
+			opacity: 0;
+		}
+
+		.splashScreen__content>svg {
+			position: relative;
+			z-index: 2;
+			width: 150px;
+			height: auto
+		}
+
+		.splashScreen__loader {
+			contain: paint;
+			margin-top: 15px;
+			display: flex;
+			position: relative
+		}
+
+		.splashScreen__loader>span {
+			width: 4px;
+			height: 4px;
+			background: #fff;
+			margin-right: 4px;
+			transform: translate3d(0,0,0)
+		}
+
+		.splashScreen__loader::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 1;
+			width: 1px;
+			height: 1px;
+			background: #1c1c1c;
+			box-shadow: 0 0 20px 20px #1c1c1c;
+			will-change: transform;
+			animation: moveShadow 1s linear infinite
+		}
+
+		.splashScreen__loader>span:nth-child(2n) {
+			background: #c9aa4c
+		}
+
+		@keyframes    moveShadow {
+			0% {
+				transform: translateX(-25px) translate3d(0,0,0)
+			}
+
+			100% {
+				transform: translateX(95px) translate3d(0,0,0)
+			}
+		}
+
+		.kyc-bar .bd .box {
+			padding: 5px 20px!important;
+		}
+	</style>
+</head>
+<body class="fix">
+<div class="splash-screen">
+	<div class="content">
+		<noscript class="noscript">
+			We're sorry but site doesn't work properly without JavaScript enabled. Please enable it to continue.
+		</noscript>
+		<div class="logo">
+			
+			<a href="../../../../en.html" class="text"><span>raze</span><span>BTC</span></a>
+		</div>
+		<div class="splashScreen__loader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		
+		
+		
+	</div>
+</div>
+<div id="app">
+
+
+
+</div>
+<script>
+	window.CSRF_TOKEN = 'qLK7i4zps00goidJ05zJZ65G6kAQX8UuykZYbbSK';
+	window._user = JSON.parse('[]');
+	window._recaptcha = '6Le-dF0aAAAAANNgvFFp90Dk18HEqSmiRYuPDKpn';
+    window._socket = { port: 0, host: window.location.protocol + "//" + window.location.hostname };
+    
+	window._currency = JSON.parse('{"list":{"AGRS":{"code":"AGRS","name":"Agoras","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/www.omniexplorer.info\/asset\/58","deposit":{"min":50,"max":null,"fee":null},"withdraw":{"min":50,"max":null,"fee":3},"exchange":{"min":null,"max":null,"fee":0.001},"image":"AGRS.svg"},"AYA":{"code":"AYA","name":"Aryacoin","decimal":6,"is_withdrawal":0,"is_depositable":0,"enabled_in_trading":0,"link_to_explorer":"woff.html\/\/explorer.aryacoin.io\/","deposit":{"min":5000,"max":null,"fee":null},"withdraw":{"min":5000,"max":null,"fee":500},"exchange":{"min":null,"max":null,"fee":0.001},"image":"AYA.png"},"BAT":{"code":"BAT","name":"Basic Attention Token","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/token\/0x0D8775F648430679A709E98d2b0Cb6250d2887EF","deposit":{"min":40,"max":null,"fee":null},"withdraw":{"min":40,"max":null,"fee":4},"exchange":{"min":null,"max":null,"fee":0.001},"image":"BAT.svg"},"BCCN":{"code":"BCCN","name":"BancCoin","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":0,"link_to_explorer":"woff.html\/\/explorer.banccoin.io","deposit":{"min":0.0001,"max":null,"fee":null},"withdraw":{"min":0.0001,"max":null,"fee":null},"exchange":{"min":null,"max":null,"fee":0.001},"image":"BCCN.svg"},"BTT":{"code":"BTT","name":"BitTorrent","decimal":6,"is_withdrawal":0,"is_depositable":0,"enabled_in_trading":0,"link_to_explorer":null,"deposit":{"min":null,"max":null,"fee":null},"withdraw":{"min":null,"max":null,"fee":null},"exchange":{"min":null,"max":null,"fee":0.001},"image":"BTT.svg"},"CCOH":{"code":"CCOH","name":"ISKRA","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/token\/0xAab80423dAA0334aBA8f16726677c23619E38773","deposit":{"min":1000,"max":null,"fee":null},"withdraw":{"min":1000,"max":null,"fee":100},"exchange":{"min":null,"max":null,"fee":0.001},"image":"CCOH.svg"},"CDL":{"code":"CDL","name":"CoinDeal Token","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/token\/0xcb17cd357c7acd594717d899ecb9df540f633f27","deposit":{"min":350,"max":null,"fee":null},"withdraw":{"min":350,"max":null,"fee":35},"exchange":{"min":null,"max":null,"fee":0.001},"image":"CDL.svg"},"CICX":{"code":"CICX","name":"CICOIN","decimal":6,"is_withdrawal":0,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/explorer.cicx.io\/","deposit":{"min":10,"max":null,"fee":null},"withdraw":{"min":10,"max":null,"fee":1},"exchange":{"min":null,"max":null,"fee":0.001},"image":"CICX.svg"},"CSC":{"code":"CSC","name":"Casino Coin","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/csc.observer\/","deposit":{"min":5000,"max":null,"fee":null},"withdraw":{"min":5000,"max":null,"fee":250},"exchange":{"min":null,"max":null,"fee":0.001},"image":"CSC.svg"},"CVA":{"code":"CVA","name":"Crypto Village Accelerator","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":0,"link_to_explorer":"woff.html\/\/ethplorer.io\/address\/0x78a52e12c7b63d05c12f9608307587cf654ec3d0","deposit":{"min":25,"max":null,"fee":null},"withdraw":{"min":25,"max":null,"fee":2.5},"exchange":{"min":null,"max":null,"fee":0.001},"image":"CVA.svg"},"DEXR":{"code":"DEXR","name":"Dexergi","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":0,"link_to_explorer":"woff.html\/\/explorer.dexergi.io\/","deposit":{"min":0.0001,"max":null,"fee":null},"withdraw":{"min":0.0001,"max":null,"fee":null},"exchange":{"min":null,"max":null,"fee":0.001},"image":"DEXR.svg"},"FLT":{"code":"FLT","name":"Flit Token","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/token\/0xb351da6ffebd5dddd1da037929fcf334d6b4a8d5","deposit":{"min":50000,"max":null,"fee":null},"withdraw":{"min":50000,"max":null,"fee":5000},"exchange":{"min":null,"max":null,"fee":0.001},"image":"FLT.svg"},"GBC":{"code":"GBC","name":"GOLDBITCOIN","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/token\/0x2cdf36dd45444c2949fffaa9044ce99ba4cdadb8","deposit":{"min":100,"max":null,"fee":null},"withdraw":{"min":100,"max":null,"fee":10},"exchange":{"min":null,"max":null,"fee":0.001},"image":"GBC.png"},"GFG":{"code":"GFG","name":"eGamingFund","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/csc.observer\/token\/GFG","deposit":{"min":500,"max":null,"fee":null},"withdraw":{"min":500,"max":null,"fee":20},"exchange":{"min":null,"max":null,"fee":0.001},"image":"GFG.svg"},"IEOS":{"code":"IEOS","name":"IEO Service","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/address\/0x395f7bc771db53732025547458f96ee217af6ad1","deposit":{"min":10,"max":null,"fee":null},"withdraw":{"min":10,"max":null,"fee":1},"exchange":{"min":null,"max":null,"fee":0.001},"image":"IEOS.svg"},"ILC":{"code":"ILC","name":"ILCoin","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/ilcoinexplorer.com","deposit":{"min":100,"max":null,"fee":null},"withdraw":{"min":100,"max":null,"fee":5},"exchange":{"min":null,"max":null,"fee":0.001},"image":"ILC.svg"},"KEY":{"code":"KEY","name":"SelfKey","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/token\/0x4cc19356f2d37338b9802aa8e8fc58b0373296e7","deposit":{"min":1000,"max":null,"fee":null},"withdraw":{"min":1000,"max":null,"fee":500},"exchange":{"min":null,"max":null,"fee":0.001},"image":"KEY.svg"},"KIM":{"code":"KIM","name":"Kingmoney","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/kingmoney.io\/explorer","deposit":{"min":1,"max":null,"fee":null},"withdraw":{"min":1,"max":null,"fee":0.001},"exchange":{"min":null,"max":null,"fee":0.001},"image":"KIM.svg"},"LOT":{"code":"LOT","name":"Lukki","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/token\/0x6556D2EC4D96Da39CF75cbE50D58fae90079800a","deposit":{"min":1000,"max":null,"fee":null},"withdraw":{"min":1000,"max":null,"fee":100},"exchange":{"min":null,"max":null,"fee":0.001},"image":"LOT.svg"},"MATIC":{"code":"MATIC","name":"Matic Token","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/beta-mainnet.explorer.matic.network\/","deposit":{"min":500,"max":null,"fee":null},"withdraw":{"min":500,"max":null,"fee":50},"exchange":{"min":null,"max":null,"fee":0.001},"image":"MATIC.svg"},"NRG":{"code":"NRG","name":"Energi","decimal":6,"is_withdrawal":0,"is_depositable":0,"enabled_in_trading":0,"link_to_explorer":"woff.html\/\/explorer.energi.network\/","deposit":{"min":5,"max":null,"fee":null},"withdraw":{"min":5,"max":null,"fee":0.001},"exchange":{"min":null,"max":null,"fee":0.001},"image":"NRG.svg"},"OMG":{"code":"OMG","name":"OmiseGO","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/address\/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07","deposit":{"min":5,"max":null,"fee":null},"withdraw":{"min":5,"max":null,"fee":0.75},"exchange":{"min":null,"max":null,"fee":0.001},"image":"OMG.svg"},"PAC":{"code":"PAC","name":"PAC Global","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/eu.pacglobalexplorer.com\/","deposit":{"min":25000,"max":null,"fee":null},"withdraw":{"min":25000,"max":null,"fee":2500},"exchange":{"min":null,"max":null,"fee":0.001},"image":"PAC.svg"},"PGPAY":{"code":"PGPAY","name":"PureGold","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/address\/0xc949fc82a15964fb5b97e5cf8f9ffed139086821","deposit":{"min":100,"max":null,"fee":null},"withdraw":{"min":100,"max":null,"fee":10},"exchange":{"min":null,"max":null,"fee":0.001},"image":"PGPAY.svg"},"POLIS":{"code":"POLIS","name":"Polis","decimal":6,"is_withdrawal":0,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/blockbook.polispay.org\/","deposit":{"min":10,"max":null,"fee":null},"withdraw":{"min":10,"max":null,"fee":1},"exchange":{"min":null,"max":null,"fee":0.001},"image":"POLIS.svg"},"QBIT":{"code":"QBIT","name":"Qubitica","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/address\/0x1602af2c782cc03f9241992e243290fccf73bb13","deposit":{"min":0.5,"max":null,"fee":null},"withdraw":{"min":0.5,"max":null,"fee":0.03},"exchange":{"min":null,"max":null,"fee":0.001},"image":"QBIT.svg"},"REM":{"code":"REM","name":"REMME","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/token\/0x83984d6142934bb535793a82adb0a46ef0f66b6d","deposit":{"min":2500,"max":null,"fee":null},"withdraw":{"min":2500,"max":null,"fee":250},"exchange":{"min":null,"max":null,"fee":0.001},"image":"REM.svg"},"ROX":{"code":"ROX","name":"Robotina Token","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/token\/0x574f84108a98c575794f75483d801d1d5dc861a5","deposit":{"min":200,"max":null,"fee":null},"withdraw":{"min":200,"max":null,"fee":20},"exchange":{"min":null,"max":null,"fee":0.001},"image":"ROX.svg"},"SCAP":{"code":"SCAP","name":"SafeCapital","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/explorer.safecapital.io\/","deposit":{"min":2,"max":null,"fee":null},"withdraw":{"min":2,"max":null,"fee":0.2},"exchange":{"min":null,"max":null,"fee":0.001},"image":"SCAP.svg"},"SGC":{"code":"SGC","name":"SignalCoin","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/token\/0x773dcefa15b47e77c7955e5d0383bafecd672734","deposit":{"min":1000,"max":null,"fee":null},"withdraw":{"min":1000,"max":null,"fee":50},"exchange":{"min":null,"max":null,"fee":0.001},"image":"SGC.svg"},"SHARK":{"code":"SHARK","name":"Sharkbyte","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/token\/0x0ced12662988d50b2704c2ca0e7e633d470972dd","deposit":{"min":200,"max":null,"fee":null},"withdraw":{"min":200,"max":null,"fee":20},"exchange":{"min":null,"max":null,"fee":0.001},"image":"SHARK.svg"},"SON":{"code":"SON","name":"Simone","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":0,"link_to_explorer":"woff.html\/\/wavesexplorer.com\/tx\/CHvsdfEdJi5NzMXuv6qrT54ogiRuL4eB5KvrDt4iuB5","deposit":{"min":0.01,"max":null,"fee":null},"withdraw":{"min":0.01,"max":null,"fee":0.003},"exchange":{"min":null,"max":null,"fee":0.001},"image":"SON.svg"},"STREAM":{"code":"STREAM","name":"Streamit","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/explorerstreamit.com\/","deposit":{"min":5,"max":null,"fee":null},"withdraw":{"min":5,"max":null,"fee":1},"exchange":{"min":null,"max":null,"fee":0.001},"image":"STREAM.svg"},"TERN":{"code":"TERN","name":"Ternio","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/stellar.expert\/explorer\/public\/asset\/TERN-GDGQDVO6XPFSY4NMX75A7AOVYCF5JYGW2SHCJJNWCQWIDGOZB53DGP6C","deposit":{"min":10000,"max":null,"fee":null},"withdraw":{"min":10000,"max":null,"fee":100},"exchange":{"min":null,"max":null,"fee":0.001},"image":"TERN.svg"},"VC":{"code":"VC","name":"Vip Coin Gold","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/vc-explorer.prod.0x1asdad2.work\/#\/","deposit":{"min":20,"max":null,"fee":null},"withdraw":{"min":20,"max":null,"fee":1},"exchange":{"min":null,"max":null,"fee":0.001},"image":"VC.svg"},"VITAE":{"code":"VITAE","name":"Vitae Token","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/de.vit.tips\/","deposit":{"min":5,"max":null,"fee":null},"withdraw":{"min":5,"max":null,"fee":0.5},"exchange":{"min":null,"max":null,"fee":0.001},"image":"VITAE.svg"},"WIN":{"code":"WIN","name":"WINk","decimal":6,"is_withdrawal":0,"is_depositable":0,"enabled_in_trading":0,"link_to_explorer":null,"deposit":{"min":null,"max":null,"fee":null},"withdraw":{"min":null,"max":null,"fee":null},"exchange":{"min":null,"max":null,"fee":0.001},"image":"WIN.svg"},"XRC":{"code":"XRC","name":"Bitcoin Rhodium","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/explorer.bitcoinrh.org\/","deposit":{"min":0.5,"max":null,"fee":null},"withdraw":{"min":0.5,"max":null,"fee":0.05},"exchange":{"min":null,"max":null,"fee":0.001},"image":"XRC.svg"},"XST":{"code":"XST","name":"Stealth","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/chainz.cryptoid.info\/xst\/","deposit":{"min":100,"max":null,"fee":null},"withdraw":{"min":100,"max":null,"fee":10},"exchange":{"min":null,"max":null,"fee":0.001},"image":"XST.svg"},"MEXC":{"code":"MEXC","name":"MEXC Token","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/token\/0x7DE2d123042994737105802D2abD0A10a7BdE276","deposit":{"min":400,"max":null,"fee":null},"withdraw":{"min":400,"max":null,"fee":40},"exchange":{"min":null,"max":null,"fee":0.001},"image":"MEXC.svg"},"MPC":{"code":"MPC","name":"MediaPlayCash","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/explorer.mediaplay.io\/","deposit":{"min":25,"max":null,"fee":null},"withdraw":{"min":100,"max":null,"fee":5},"exchange":{"min":null,"max":null,"fee":0.001},"image":"MPC.svg"},"TELOS":{"code":"TELOS","name":"TELOS \u0421oin","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/159.69.33.243:3001\/","deposit":{"min":1000,"max":null,"fee":null},"withdraw":{"min":1000,"max":null,"fee":100},"exchange":{"min":null,"max":null,"fee":0.001},"image":"TELOS.svg"},"MB8":{"code":"MB8","name":"MB8Coin","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/explorer.mb8coin.io\/","deposit":{"min":1000,"max":null,"fee":null},"withdraw":{"min":1000,"max":null,"fee":50},"exchange":{"min":null,"max":null,"fee":0.001},"image":"MB8.svg"},"WAVES":{"code":"WAVES","name":"Waves","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/wavesexplorer.com\/","deposit":{"min":10,"max":null,"fee":null},"withdraw":{"min":10,"max":null,"fee":1},"exchange":{"min":null,"max":null,"fee":0.001},"image":"WAVES.svg"},"BTG":{"code":"BTG","name":"Bitcoin Gold","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/explorer.bitcoingold.org\/insight\/","deposit":{"min":1,"max":null,"fee":null},"withdraw":{"min":1,"max":null,"fee":0.05},"exchange":{"min":null,"max":null,"fee":0.001},"image":"BTG.svg"},"TRX":{"code":"TRX","name":"Tron","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/tronscan.org\/#\/","deposit":{"min":100,"max":null,"fee":null},"withdraw":{"min":100,"max":null,"fee":1},"exchange":{"min":null,"max":null,"fee":0.001},"image":"TRX.svg"},"BCH":{"code":"BCH","name":"Bitcoin Cash","decimal":6,"is_withdrawal":1,"is_depositable":1,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/bch.tokenview.com\/","deposit":{"min":0.01,"max":null,"fee":null},"withdraw":{"min":0.01,"max":null,"fee":0.002},"exchange":{"min":null,"max":null,"fee":0.001},"image":"BCH.svg"},"DASH":{"code":"DASH","name":"Dash","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/insight.dash.org\/insight\/","deposit":{"min":0.04,"max":null,"fee":null},"withdraw":{"min":0.04,"max":null,"fee":0.008},"exchange":{"min":null,"max":null,"fee":0.001},"image":"DASH.svg"},"ETC":{"code":"ETC","name":"Ethereum Classic","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/gastracker.io\/","deposit":{"min":0.5,"max":null,"fee":null},"withdraw":{"min":0.5,"max":null,"fee":0.08},"exchange":{"min":null,"max":null,"fee":0.001},"image":"ETC.svg"},"NEO":{"code":"NEO","name":"NEO","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/neoscan.io\/","deposit":{"min":1,"max":null,"fee":null},"withdraw":{"min":1,"max":null,"fee":null},"exchange":{"min":null,"max":null,"fee":0.001},"image":"NEO.svg"},"XLM":{"code":"XLM","name":"Stellar","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/steexp.com\/","deposit":{"min":10,"max":null,"fee":null},"withdraw":{"min":10,"max":null,"fee":0.5},"exchange":{"min":null,"max":null,"fee":0.001},"image":"XLM.svg"},"BNB":{"code":"BNB","name":"Binance Coin","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/explorer.binance.org\/","deposit":{"min":0.1,"max":null,"fee":null},"withdraw":{"min":0.1,"max":null,"fee":0.01},"exchange":{"min":null,"max":null,"fee":0.001},"image":"BNB.svg"},"LTC":{"code":"LTC","name":"Litecoin","decimal":6,"is_withdrawal":1,"is_depositable":1,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/blockchair.com\/litecoin","deposit":{"min":0.01,"max":null,"fee":null},"withdraw":{"min":0.1,"max":null,"fee":0.01},"exchange":{"min":null,"max":null,"fee":0.001},"image":"LTC.svg"},"USDT":{"code":"USDT","name":"Tether US","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/token\/0xdAC17F958D2ee523a2206206994597C13D831ec7","deposit":{"min":5,"max":null,"fee":null},"withdraw":{"min":15,"max":null,"fee":3},"exchange":{"min":null,"max":null,"fee":0.001},"image":"USDT.svg"},"EUR":{"code":"EUR","name":"Euro","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":null,"deposit":{"min":20,"max":10000,"fee":null},"withdraw":{"min":20,"max":10000,"fee":null},"exchange":{"min":null,"max":null,"fee":0.001},"image":"EUR.svg"},"UAH":{"code":"UAH","name":"Hryvnia","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":null,"deposit":{"min":200,"max":250000,"fee":null},"withdraw":{"min":200,"max":250000,"fee":null},"exchange":{"min":null,"max":null,"fee":0.001},"image":"UAH.svg"},"RUB":{"code":"RUB","name":"RUB Ruble","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":null,"deposit":{"min":500,"max":500000,"fee":null},"withdraw":{"min":500,"max":500000,"fee":null},"exchange":{"min":null,"max":null,"fee":0.001},"image":"RUB.svg"},"USD":{"code":"USD","name":"United States Dollar","decimal":6,"is_withdrawal":1,"is_depositable":0,"enabled_in_trading":1,"link_to_explorer":null,"deposit":{"min":10,"max":10000,"fee":null},"withdraw":{"min":20,"max":10000,"fee":null},"exchange":{"min":null,"max":null,"fee":0.001},"image":"USD.svg"},"ETH":{"code":"ETH","name":"Ethereum","decimal":6,"is_withdrawal":1,"is_depositable":1,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/etherscan.io\/","deposit":{"min":0.02,"max":null,"fee":null},"withdraw":{"min":0.02,"max":null,"fee":0.01},"exchange":{"min":null,"max":null,"fee":1.0e-5},"image":"ETH.svg"},"BTC":{"code":"BTC","name":"Bitcoin","decimal":6,"is_withdrawal":1,"is_depositable":1,"enabled_in_trading":1,"link_to_explorer":"woff.html\/\/www.blockchain.com\/explorer","deposit":{"min":0.005,"max":null,"fee":null},"withdraw":{"min":0.001,"max":null,"fee":0.0005},"exchange":{"min":null,"max":null,"fee":0.001},"image":"BTC.svg"}},"rate":[],"pairs":[{"pair":"XST_BTC","in_loading_br":false},{"pair":"XRC_ETH","in_loading_br":false},{"pair":"MATIC_BTC","in_loading_br":false},{"pair":"ETC_BTC","in_loading_br":true},{"pair":"TERN_ETH","in_loading_br":false},{"pair":"NEO_USD","in_loading_br":false},{"pair":"MEXC_ETH","in_loading_br":false},{"pair":"LTC_ETH","in_loading_br":false},{"pair":"BNB_USDT","in_loading_br":false},{"pair":"AGRS_BTC","in_loading_br":false},{"pair":"QBIT_ETH","in_loading_br":false},{"pair":"BTG_EUR","in_loading_br":false},{"pair":"KIM_BTC","in_loading_br":false},{"pair":"ETH_BTC","in_loading_br":true},{"pair":"VC_EUR","in_loading_br":false},{"pair":"DASH_ETH","in_loading_br":false},{"pair":"SCAP_BTC","in_loading_br":false},{"pair":"DASH_USD","in_loading_br":true},{"pair":"BNB_EUR","in_loading_br":false},{"pair":"REM_BTC","in_loading_br":true},{"pair":"BNB_RUB","in_loading_br":false},{"pair":"CSC_BTC","in_loading_br":false},{"pair":"WAVES_BTC","in_loading_br":true},{"pair":"TRX_ETH","in_loading_br":false},{"pair":"XLM_USD","in_loading_br":false},{"pair":"PAC_BTC","in_loading_br":false},{"pair":"TELOS_BTC","in_loading_br":false},{"pair":"BAT_ETH","in_loading_br":false},{"pair":"VITAE_USD","in_loading_br":false},{"pair":"NEO_BTC","in_loading_br":false},{"pair":"TERN_BTC","in_loading_br":false},{"pair":"MEXC_BTC","in_loading_br":false},{"pair":"MATIC_USD","in_loading_br":false},{"pair":"LTC_BTC","in_loading_br":false},{"pair":"ETC_USD","in_loading_br":false},{"pair":"ROX_USDT","in_loading_br":false},{"pair":"CSC_USD","in_loading_br":false},{"pair":"LOT_BTC","in_loading_br":false},{"pair":"BTC_USDT","in_loading_br":false},{"pair":"CICX_ETH","in_loading_br":false},{"pair":"VC_USDT","in_loading_br":false},{"pair":"QBIT_USDT","in_loading_br":false},{"pair":"TRX_BTC","in_loading_br":false},{"pair":"MPC_BTC","in_loading_br":false},{"pair":"ETH_USDT","in_loading_br":false},{"pair":"STREAM_USD","in_loading_br":false},{"pair":"MB8_BTC","in_loading_br":false},{"pair":"GFG_USD","in_loading_br":false},{"pair":"LTC_USD","in_loading_br":false},{"pair":"BTC_UAH","in_loading_br":false},{"pair":"BAT_USDT","in_loading_br":false},{"pair":"TRX_USDT","in_loading_br":false},{"pair":"ROX_ETH","in_loading_br":false},{"pair":"CCOH_BTC","in_loading_br":false},{"pair":"CICX_BTC","in_loading_br":false},{"pair":"BTC_USD","in_loading_br":true},{"pair":"CCOH_ETH","in_loading_br":false},{"pair":"OMG_ETH","in_loading_br":false},{"pair":"BNB_USD","in_loading_br":false},{"pair":"KIM_USD","in_loading_br":false},{"pair":"ETH_USD","in_loading_br":true},{"pair":"BTG_USDT","in_loading_br":false},{"pair":"BTG_UAH","in_loading_br":false},{"pair":"BCH_USD","in_loading_br":true},{"pair":"QBIT_BTC","in_loading_br":false},{"pair":"CICX_USDT","in_loading_br":false},{"pair":"STREAM_BTC","in_loading_br":false},{"pair":"ILC_ETH","in_loading_br":false},{"pair":"IEOS_BTC","in_loading_br":false},{"pair":"GFG_BTC","in_loading_br":false},{"pair":"ETH_RUB","in_loading_br":false},{"pair":"XLM_BTC","in_loading_br":false},{"pair":"SGC_BTC","in_loading_br":false},{"pair":"TELOS_USDT","in_loading_br":false},{"pair":"PGPAY_USD","in_loading_br":false},{"pair":"BNB_BTC","in_loading_br":false},{"pair":"OMG_BTC","in_loading_br":false},{"pair":"MATIC_USDT","in_loading_br":false},{"pair":"CDL_BTC","in_loading_br":false},{"pair":"CSC_EUR","in_loading_br":false},{"pair":"XLM_ETH","in_loading_br":false},{"pair":"BAT_BTC","in_loading_br":false},{"pair":"NEO_ETH","in_loading_br":false},{"pair":"BCH_BTC","in_loading_br":true},{"pair":"KIM_EUR","in_loading_br":false},{"pair":"ETH_EUR","in_loading_br":false},{"pair":"POLIS_BTC","in_loading_br":false},{"pair":"KEY_BTC","in_loading_br":false},{"pair":"ILC_BTC","in_loading_br":false},{"pair":"FLT_BTC","in_loading_br":false},{"pair":"ETH_UAH","in_loading_br":false},{"pair":"MEXC_USDT","in_loading_br":false},{"pair":"OMG_USD","in_loading_br":false},{"pair":"DASH_BTC","in_loading_br":true},{"pair":"VITAE_BTC","in_loading_br":false},{"pair":"ILC_USDT","in_loading_br":false},{"pair":"GFG_EUR","in_loading_br":false},{"pair":"XRC_USD","in_loading_br":false},{"pair":"XRC_BTC","in_loading_br":false},{"pair":"BNB_UAH","in_loading_br":false},{"pair":"ETC_ETH","in_loading_br":false},{"pair":"BTC_RUB","in_loading_br":false},{"pair":"BTC_EUR","in_loading_br":false}]}');
+	window._locales = JSON.parse('{"en":{"code":"en","name":"English"},"ru":{"code":"ru","name":"Russian"},"zh":{"code":"zh","name":"Chinese"},"et":{"code":"et","name":"Estonian"}}');
+	window._socials = JSON.parse('[]');
+	window._general = JSON.parse('{"logo":"<span>raze<\/span><span>BTC<\/span>","ru":{"name":"razeBTC","description":"razeBTC","keywords":"razeBTC"},"en":{"name":"razeBTC","description":"razeBTC","keywords":"razeBTC"},"zh":{"name":"razeBTC","description":"razeBTC","keywords":"razeBTC"},"et":{"name":"razeBTC","description":"razeBTC","keywords":"razeBTC"},"link_app":"woff.html\/\/razebtc.com\/download","dh_da_p":0.02}');
+	window._language = 'en';
+	/*document.querySelector('.splash-screen .icon').style = 'display: block;';*/
+</script>
+<script src="http://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&amp;render=explicit&amp;hl=en" async defer></script>
+
+<script src="../../../../js/main.bd342a2d5592223971cc.js"></script>
+</body>
+
+<!-- Mirrored from razebtc.com/en/fonts/IBM-Plex/sans/woff by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Feb 2021 17:48:10 GMT -->
+</html>
+
+
